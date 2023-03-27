@@ -1,0 +1,13 @@
+name: Home Upgrade
+command: |-
+    brew upgrade && brew cleanup && brew doctor
+tags:
+    - homebrew
+    - macOS
+description: Upgrade Homebrew and cleanup old versions.
+source_url: "https://github.com/axelquack/warpfiles"
+author: Axel Quack
+author_url: "http://www.axelquack.de"
+shells:
+    - zsh
+    - bash
