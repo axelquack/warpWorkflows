@@ -2,7 +2,7 @@ name: Home Upgrade
 command: |-
     brew upgrade && brew cleanup && brew doctor
 tags:
-    - homebrew
+    - brew
     - macOS
 description: Upgrade Homebrew and cleanup old versions.
 source_url: "https://github.com/axelquack/warpfiles"
