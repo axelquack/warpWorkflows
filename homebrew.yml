@@ -1,6 +1,6 @@
 name: Home Upgrade
 command: |-
-    brew upgrade && brew cleanup && brew doctor
+    brew upgrade && brew cleanup && brew doctor && brew autoremove
 tags:
     - brew
     - macOS
